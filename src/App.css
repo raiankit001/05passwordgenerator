@@ -1,0 +1,14 @@
+#main{
+    min-width: 350px;
+}
+
+@media screen and (max-width :700px) {
+    #options{
+        flex-direction: column;
+        gap: 10px;
+    }
+    #main{
+        width: 90vw !important;
+    }
+    
+}
